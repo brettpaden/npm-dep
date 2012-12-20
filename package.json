@@ -1,0 +1,35 @@
+{
+  "name": "npm-dep",
+  "preferGlobal": "true",
+  "description": "Scan npm managed installations for dependency conflicts",
+  "version": "0.0.1",
+  "author": "Brett Paden <paden@pkt3.com>",
+  "maintainers": [
+    "brettpaden <brettpaden@gmail.com>",
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brettpaden/npm-dep.git",
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "sysadmin",
+    "tools",
+	"dependencies",
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "bin": {
+    "npm-dep": "./bin/npm-dep",
+  },
+  "main": "./lib/npm-dep",
+  "scripts": {
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
+
