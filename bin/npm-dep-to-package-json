@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+require('../lib/npm-dep').to_package_json(
+	function(deps) {
+		console.log(JSON.stringify(deps,null,4));
+	}
+);
+
