@@ -5,7 +5,7 @@
   "version": "0.0.2",
   "author": "Brett Paden <paden@pkt3.com>",
   "maintainers": [
-    "brettpaden <brettpaden@gmail.com>",
+    "brettpaden <brettpaden@gmail.com>"
   ],
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   },
   "bin": {
     "npm-dep": "./bin/npm-dep",
-    "npm-dep-to-package-json": "./bin/npm-dep-to-package-json",
+    "npm-dep-to-package-json": "./bin/npm-dep-to-package-json"
   },
   "main": "./lib/npm-dep",
   "engines": {
